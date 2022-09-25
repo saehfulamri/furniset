@@ -1,0 +1,850 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Mengatur bagian container utama */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Mengatur bagian 1 yaitu hero section yang berupa gambar dan teks */
+.bag-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F2F2F2;
+}
+
+/* Mengatur bagian 1 untuk div gambar */
+.bag-1 .gambar {
+    width: 50%;
+}
+
+.bag-1 .gambar img {
+    float: right;
+    padding-right: 70px;
+}
+
+/* Mengatur bagian 1 untuk div teks */
+.bag-1 .teks {
+    width: 50%;
+}
+
+.teks h2 {
+    font-weight: 900;
+    font-size: medium;
+}
+
+.teks h1 {
+    font-weight: 900;
+    padding-top: 60px;
+    line-height: 60px;
+    font-size: 45px;
+}
+
+.teks p {
+    padding-top: 30px;
+    padding-bottom: 75px;
+}
+
+.teks a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    border-radius: 3px;
+}
+
+.teks a:hover {
+    background-color: rgb(252,213,119);
+    color: black;
+    transition: 0.5 ease-in-out;
+    font-weight: 600;
+    border: none;
+}
+
+/* Mengatur bagian 2 yaitu logo partner */
+.bag-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.garis-bawah {
+    margin-top: 60px;
+    color: #e8e8e8;
+    width: 70%;
+    opacity: 20%;
+    size: 1px;
+    justify-content: center;
+    /* background-color: blue; */
+    /* text-align: center; */
+    align-items: center;
+}
+
+.logo-partner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo1, .logo2, .logo3, .logo4 {
+    padding: 0px 60px 0px 60px;
+    align-items: center;
+}
+
+/* Mengatur bagian 3 yaitu reviews dari para pelanggan */
+.bag-3 {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.bag-3 h1 {
+    font-weight: 900;
+}
+
+.bag-3 hr {
+    margin-top: 20px;
+    width: 5%;
+    size: 10px;
+    height: 2.5px;
+    border: none;
+    background-color: #FCD577;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.review1 {
+    background-color: white;
+    width: 320px;
+    border: 1px solid rgb(220, 220, 220);
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.review1 p {
+    padding-top: 15px;
+    line-height: 25px;
+}
+
+.review1 img {
+    padding-top: 50px;
+    width: 45px;
+    padding-bottom: 20px;
+}
+
+.review1 h3 {
+    font-weight: 900;
+}
+
+.review1 h5 {
+    font-weight: 100;
+    padding-bottom: 5px;
+}
+
+.reviews + h5 {
+    font-weight: 800;
+    color: #909090;
+    padding-bottom: 20px;
+}
+
+.reviews ~ h1 {
+    text-align: center;
+}
+
+.reviews ~ p {
+    width: 850px;
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 25px;
+    color: #5B5D5F;
+}
+
+.reviews ~ hr {
+    margin-top: 50px;
+    width: 2%;
+    margin-bottom: 20px;
+}
+
+/* Mengatur bagian 4 menjadi flex-direction column */
+.bag-4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding-bottom: 100px;
+}
+
+/* Mengatur bagian 4 div satu menjadi flex-direction row */
+.bag-4 .satu {
+    justify-content: center;
+    display: flex;
+    padding-top: 100px;
+    margin-bottom: 70px;
+}
+
+.bag-4 .satu .gambar img {
+    float: right;
+    padding-right: 42px;
+    padding-top: 25px;
+}
+
+.bag-4 .satu .teks {
+    /* width: 50%; */
+    padding-left: 42px;
+}
+
+.bag-4 .satu .teks h3 {
+    color: #909090;
+}
+
+.bag-4 .satu .teks h1 {
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 1.5em;
+    padding-top: 20px;
+}
+
+.bag-4 .satu .teks hr {
+    width: 6%;
+    background-color: #FCD577;
+    border: none;
+    height: 2.5px;
+    margin-top: 50px;
+}
+
+.bag-4 .satu .teks p {
+    width: 500px;
+    font-size: medium;
+    line-height: 25px;
+    color: #909090;
+}
+
+.bag-4 .dua {
+    justify-content: center;
+    display: flex;
+}
+
+/* Mengatur bagian 5 */
+.bag-5 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* Mengatur bagian 5 div satu */
+.bag-5 .satu {
+    display: flex;
+    justify-content: center;
+}
+
+.bag-5 .satu .teks {
+    /* background-color: blue; */
+    padding-right: 55px;
+}
+
+.bag-5 .teks hr {
+    width: 8%;
+    background-color: #FCD577;
+    border: none;
+    height: 2.5px;
+    margin-top: 50px;
+}
+
+.bag-5 .teks p {
+    width: 500px;
+    font-size: medium;
+    line-height: 25px;
+    color: #909090;
+}
+
+.bag-5 .satu .gambar {
+    /* background-color: red; */
+    padding-left: 55px;
+}
+
+.bag-5 .teks h1 {
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 1.5em;
+}
+
+/* Mengatur bagian 5 div dua */
+.bag-5 .dua {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bag-5 .dua .teks {
+    /* background-color: blue; */
+    padding-left: 55px;
+}
+
+.bag-5 .dua .gambar {
+    /* background-color: red; */
+    padding-right: 55px;
+}
+
+/* Mengatur bagian 5 div tiga */
+.bag-5 .tiga {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bag-5 .tiga .teks h3 {
+    color: #909090;
+}
+
+.bag-5 .tiga .teks h1 {
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 1.5em;
+    padding-top: 20px;
+}
+
+/* Mengatur bagian 5 div tiga untuk div list */
+.bag-5 .tiga .teks .list {
+    display: flex;
+    flex-direction: column;
+}
+
+.bag-5 .tiga .teks .list .list-satu {
+    display: flex;
+    /* background-color: blue; */
+    align-items: center;
+}
+
+.bag-5 .tiga .teks .list .list-satu p {
+    padding: 0px 0px 0px 25px;
+}
+
+.bag-5 .tiga .teks .list .list-dua {
+    display: flex;
+    align-items: center;
+}
+
+.bag-5 .tiga .teks .list .list-dua p {
+    padding: 0px 0px 0px 25px;
+}
+
+.bag-5 .tiga .teks .list .list-tiga {
+    display: flex;
+    align-items: center;
+}
+
+.bag-5 .tiga .teks .list .list-tiga p {
+    padding: 0px 0px 0px 25px;
+}
+
+.list-satu, .list-dua, .list-tiga {
+    padding-bottom: 25px;
+}
+
+.bag-5 .tiga .teks .list p {
+    color: black;
+}
+
+/* Mengatur bagian 6 */
+.bag-6 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.bag-6 h3 {
+    color: #909090;
+    padding-bottom: 20px;
+}
+
+.bag-6 .foto-nama h3 {
+    color: black;
+    padding-bottom: 0px;
+}
+
+.bag-6 .review1 h3 {
+    color: black;
+}
+
+.bag-6 h1 {
+    font-weight: 900;
+}
+
+.bag-6 hr {
+    width: 5%;
+    background-color: #FCD577;
+    border: none;
+    height: 2.5px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.bag-6 .reviews {
+    margin-top: 0px;
+    /* padding-top: 0px; */
+    margin-bottom: 0px;
+}
+
+/* Mengatur bagian 7 */
+.bag-7 {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0px 80px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bag-7 h3 {
+    color: #909090;
+    padding-bottom: 20px;
+}
+
+.bag-7 h1 {
+    font-weight: 900;
+}
+
+.bag-7 .garis-bawah {
+    margin-top: 60px;
+    display: flex;
+    opacity: 100%;
+    justify-content: center;
+    /* background-color: blue; */
+    /* text-align: center; */
+    align-items: center;
+}
+
+.bag-7 .garis-bawah hr {
+    /* color: #E0E0E0 !important; */
+    height: 1px;
+    width: 990px;
+    border: none;
+    background-color: #E0E0E0;
+}
+
+.bag-7 hr {
+    width: 4%;
+    background-color: #FCD577;
+    border: none;
+    height: 2.5px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+/* Bagian 7 div keunggulan */
+.bag-7 .keunggulan {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 970px;
+    padding: 0px 10px 0px 10px;
+}
+
+.bag-7 .keunggulan div {
+    text-align: center;
+}
+
+.bag-7 .keunggulan div h3 {
+    font-weight: 900;
+}
+
+.bag-7 .keunggulan div img {
+    padding-bottom: 20px;
+}
+
+.bag-7 .keunggulan div p {
+    line-height: 30px;
+}
+
+.bag-7 .keunggulan h3 {
+    color: black;
+}
+
+/* Bagian 7 div sale */
+.bag-7 .sale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.bag-7 .sale div {
+    text-align: center;
+    background-color: #F2F2F2;
+    padding: 70px 50px;
+    margin: 10px;
+}
+
+.bag-7 .sale div h3 {
+    color: black;
+    font-weight: 800;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.bag-7 .sale div p {
+    color: #F07979;
+    text-decoration: line-through;
+    padding-bottom: 25px;
+}
+
+.bag-7 .sale div h2 {
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+
+.bag-7 .sale div a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 15px 60px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.bag-7 .sale div a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Mengatur bagian 8 yaitu diskon */
+.bag-8 {
+    display: flex;
+    margin: 10px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.922), rgba(14, 14, 15, 0.938)), url(assets/pexels-vecislavas-popa-1571471.jpg);
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bag-8 hr {
+    width: 8%;
+    background-color: #FCD577;
+    border: none;
+    height: 2.5px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.bag-8 .gambar {
+    padding-left: 20px;
+}
+
+.bag-8 .teks {
+    color: white;
+    width: 400px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bag-8 .teks p {
+    color: #B7B7B7;
+    line-height: 25px;
+}
+
+.bag-8 .teks .timer {
+    display: flex;
+}
+
+.bag-8 .teks .timer p {
+    color: white;
+    padding-top: 5px;
+}
+
+.bag-8 .teks .timer div {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    padding: 5px 10px 0px 10px;
+    height: 90px;
+}
+
+.bag-8 .teks h3 {
+    padding-bottom: 0px;
+}
+
+.bag-8 .timer-wrap {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.bag-8 .timer-wrap div {
+    padding-bottom: 5px;
+}
+
+.bag-8 .teks h1 {
+    font-size: 2em;
+    line-height: 45px;
+}
+
+/* Mengatur bagian 9 yaitu moneyback */
+.bag-9 {
+    padding: 80px 0px 80px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bag-9 .teks {
+    width: 700px;
+    padding: 0px 0px 0px 70px;
+}
+
+.bag-9 .teks h1 {
+    font-size: 2em;
+}
+
+.bag-9 .teks hr {
+    width: 9%;
+    background-color: #FCD577;
+    border: none;
+    height: 2.5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.bag-9 .teks p {
+    color: #909090;
+    line-height: 25px;
+}
+
+.bag-9 .gambar {
+    padding: 0px 70px 0px 0px;
+}
+
+/* Mengatur bagian 10 */
+.bag-10 {
+    padding: 80px 0px 80px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+.bag-10 .teks {
+    width: 600px;
+    padding: 0px 50px 0px 0px;
+}
+
+.bag-10 .teks h3 {
+    color: #909090;
+}
+
+.bag-10 .teks h1 {
+    font-size: 2em;
+    line-height: 45px;
+    padding-top: 20px;
+}
+
+.bag-10 .teks hr {
+    width: 8%;
+    background-color: #FCD577;
+    border: none;
+    height: 2.5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.bag-10 .teks p {
+    line-height: 25px;
+    color: #909090;
+    padding-bottom: 30px;
+}
+
+.bag-10 .teks ul li {
+    padding: 0px 0px 20px 0px;
+}
+
+.bag-10 .teks ul li i {
+    color: #F57E7E;
+    padding-right: 20px;
+}
+
+.bag-10 .teks ul {
+    color: #909090;
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+}
+
+.bag-10 .gambar {
+    padding: 0px 0px 0px 50px;
+}
+
+/* Mengatur bagian 11 yaitu gallery */
+.bag-11 {
+    padding: 80px 0px 80px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bag-11 .teks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1050px;
+}
+
+.bag-11 .teks p {
+    color: #909090;
+    line-height: 25px;
+}
+
+.bag-11 .teks h4 {
+    font-weight: 900;
+}
+
+.bag-11 .teks h1 {
+    font-size: 2em;
+    line-height: 45px;
+    padding-top: 20px;
+}
+
+.bag-11 .teks .satu h3 {
+    color: #909090;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.bag-11 .teks hr {
+    width: 8%;
+    background-color: #FCD577;
+    border: none;
+    height: 2.5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.bag-11 .teks .dua, .tiga {
+    display: flex;
+    padding: 20px ;
+    flex-direction: column;
+}
+
+.bag-11 .teks .satu {
+    margin-right: 120px;
+}
+
+.bag-11 .gambar {
+    display: flex;
+}
+
+.bag-11 .gambar img {
+    margin: 0px 5px 0px 5px;
+    width: 225px;
+}
+
+/* Mengatur bagian footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 80px 0px 50px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.footer .satu {
+    display: flex;
+}
+
+.footer .satu .teks {
+    width: 750px;
+    padding: 0px 0px 0px 50px;
+}
+
+.footer .satu .gambar {
+    padding: 0px 50px 0px 0px;
+}
+
+.footer .satu .teks a {
+    background-color: #FCD577;
+    color: black;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.footer .satu .teks a:hover {
+    background-color: #ffc43b;
+}
+
+.footer .satu .teks p {
+    line-height: 25px;
+    color: #a7a7a7;
+    padding-bottom: 50px;
+}
+
+.footer .garis-bawah hr {
+    height: 1px;
+    width: 1100px;
+    margin-bottom: 50px;
+    border: none;
+    background-color: #E0E0E0;
+}
+
+.footer .garis-bawah {
+    display: flex;
+    /* background-color: blue; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .tiga {
+    width: 900px;
+    text-align: center;
+    color: #a7a7a7;
+    line-height: 25px;
+}
+
+.footer .tiga p {
+    font-size: small;
+}
+
+
